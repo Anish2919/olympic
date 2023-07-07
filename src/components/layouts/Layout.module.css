@@ -1,0 +1,134 @@
+.navbarLogo {
+    height: 36px; 
+    width:80px; 
+    margin-left: 10px;
+}
+.navbar_barnd_name {
+    color:white; 
+    margin: auto;
+}
+
+.navbarCollapse {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.navUl > li > a {
+    color:white !important; 
+    cursor: pointer;
+}
+.navUl > li > a:hover {
+    color:bisque !important; 
+}
+
+.signin_signout_button {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.signin_signout_button:hover {
+    color:bisque;
+}
+
+.profile {
+    width:60px; 
+    height: 60px; 
+    background-color: #dddddd;
+}
+
+
+.footer {
+    background-color: #550065;
+    height: fit-content;
+    font-size: 16px;
+    color:white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer_media_handler {
+    margin: 5px 10px;
+    justify-content: space-between;
+}
+
+.website_name {
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    min-width: 180px;
+    margin: 20px;
+}   
+.social_media_icons {
+    margin: auto auto;
+   margin:20px;
+}
+
+
+/* // policy and copy :right */
+.policy_copyright_handler {
+    font-size: 16px ;
+    justify-content: space-between;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    margin-top: 50px ;
+}
+
+.policy {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.policy ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.policy ul li {
+    width: fit-content;
+}
+
+/* .copyright{
+
+} */
+
+
+
+
+@media screen and (max-width:992px) {
+    .navUl > li > a {
+        font-size: 0.8rem;
+    }
+    .navbarCollapse {
+        margin-top: 25px;
+        background-color: #550065; 
+        width: 100%;
+    }
+
+    .profile {
+        margin-bottom: 50px;
+    }
+    .policy_copyright_handler {
+        font-size: 12px;
+    }
+    .social_media_icons {
+        gap:3; 
+       
+    }
+}
+
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for tablets */
+  }
+
+/* styles for mobile devices */
+@media screen and (max-width:767px) {
+    .social_media_icons {
+        display: flex;
+        justify-content: center;
+    }
+}
+

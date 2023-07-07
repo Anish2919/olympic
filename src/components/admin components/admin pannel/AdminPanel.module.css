@@ -1,0 +1,30 @@
+
+
+.left_col {
+    background-color: #550065;
+    height: 100vh;
+}
+
+
+
+.card {
+    width: 80%;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card:hover {
+    background-color: beige;
+}
+
+@media screen and (max-width:768px) {
+    .left_col{
+        height: fit-content;
+    }
+    .right_col {
+        height: fit-content;
+    }
+}

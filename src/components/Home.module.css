@@ -1,0 +1,82 @@
+.upcommingEvents {
+    background-color: #550065;
+    padding: 0;
+    margin: 0;
+}
+
+.banner {
+    height: 148px;
+    width:200px;
+}
+
+.statdium_name_and_time {
+    display: flex;
+    justify-content: space-between;
+    margin:5px 10px;
+    opacity: 0.7;
+}
+
+.liveScreen {
+    position: relative;
+}
+
+.watchLiveButton {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    background-color: #e02222;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width:120px;
+    font-weight: bold;
+}
+
+.liveScreen:hover .watchLiveButton{
+    visibility: visible;
+    transition: visibility 2s;
+}
+
+.watchLiveButton:hover {
+    color:white;
+}
+
+.match_details {
+    position: absolute;
+    bottom: 60px;
+    left:50px;
+    font-size: 25px;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+
+
+.country_container {
+    display: flex;
+}
+
+.country_flag {
+    height: 25px;
+    width: 30px;
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.country_name{
+    text-align: left;
+    margin: auto 0;
+}
+
+
+
+.liveSportCard_Container {
+    margin: 20px 0; 
+}
+
+.watchLiveBtn_Card {
+    background-color: #e02222;
+    color: white;
+    display: flex;
+    gap:20px
+}
